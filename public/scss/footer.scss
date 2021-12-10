@@ -1,0 +1,216 @@
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  .footer-top {
+    background-color: #3b2b2f;
+    padding: 0px 20px 0px 20px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .info {
+      display: flex;
+      p {
+        margin-bottom: 0px;
+      }
+      .find {
+        cursor: pointer;
+        display: flex;
+        margin-right: 20px;
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      p {
+        margin-right: 20px;
+        margin-bottom: 0px;
+      }
+      i {
+        cursor: pointer;
+        margin-right: 20px;
+      }
+    }
+  }
+  .footer-mid {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 40px 10px;
+    .title {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    .link {
+      cursor: pointer;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .selected {
+      text-decoration: underline;
+    }
+    .left {
+      .footer-div:first-child {
+        margin-bottom: 40px;
+      }
+    }
+    .right {
+      .mailing {
+        .mailing-text {
+          word-spacing: 2px;
+          font-size: 15px;
+          margin-bottom: 10px;
+        }
+        .mailing-signup {
+          display: flex;
+          margin-bottom: 30px;
+          height: 30px;
+          width: auto;
+          input {
+            width: 160px;
+            height: 100%;
+            padding-left: 10px;
+          }
+          .mailing-but {
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            border: 2px solid #f9c507;
+          }
+        }
+      }
+      .country {
+        p {
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        .selection {
+          display: flex;
+          &-circle {
+            height: 20px;
+            width: 20px;
+            background-image: url(../images/us-flag.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 20px;
+            margin-right: 20px;
+          }
+          &-dropdown {
+            padding: 3px;
+            background-color: #f6f6f6;
+          }
+        }
+      }
+    }
+  }
+  .footer-bot {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    &-text {
+      margin-top: 10px;
+      font-size: 12px;
+      margin-right: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  footer {
+    .footer-top {
+      padding: 0;
+      background-color: #5b3427;
+      flex-direction: column;
+      height: fit-content;
+      width: 100%;
+      .info {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+          padding: 20px;
+        }
+        .find {
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid #ad7d6d;
+        }
+        .sup {
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          border-bottom: 1px solid #ad7d6d;
+        }
+      }
+      .social {
+        padding: 20px;
+        p {
+          display: none;
+        }
+        i {
+          margin-right: 40px;
+        }
+      }
+    }
+    .footer-mid {
+      flex-wrap: wrap;
+      .left {
+        width: 50%;
+      }
+      .footer-div {
+        width: 50%;
+        margin-bottom: 30px;
+      }
+    }
+    .footer-bot {
+      flex-direction: column;
+      padding-left: 10px;
+      &-text {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  footer {
+    .footer-mid {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      // text-align: center;
+      .left {
+        width: 100%;
+      }
+      .footer-div {
+        width: 100%;
+      }
+      .right {
+        .mailing {
+          .mailing-signup {
+            justify-content: center;
+            // width: 100%;
+            input {
+              width: 80%;
+            }
+            .mailing-but {
+              width: 20%;
+            }
+          }
+        }
+        .country {
+          .selection {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

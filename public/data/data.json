@@ -1,0 +1,184 @@
+[
+  {
+    "name": "K-Supreme Plus® SMART Single Serve Coffee Maker",
+    "price": 199.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#000000",
+        "url": "../images/coffee-makers/K-Supreme/K-Supreme-Plus-SMART-Coffee-Maker_5000361470_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "K-Mini® Single Serve Coffee Maker",
+    "price": 79.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#a9a9a6",
+        "url": "../images/coffee-makers/K-Mini/K-Mini-Coffee-Maker_5000203382_swatch.webp"
+      },
+      {
+        "color": "#ffe7e8",
+        "url": "../images/coffee-makers/K-Mini/K-Mini-Coffee-Maker_5000350706_swatch.webp"
+      },
+      {
+        "color": "#333333",
+        "url": "../images/coffee-makers/K-Mini/K-Mini-Coffee-Maker_5000356078_swatch.webp"
+      },
+      {
+        "color": "#a7cfca",
+        "url": "../images/coffee-makers/K-Mini/K-Mini-Coffee-Maker_5000356890_swatch.webp"
+      },
+      {
+        "color": "#ff0000",
+        "url": "../images/coffee-makers/K-Mini/K-Mini-Coffee-Maker_5000361864_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "Keurig® K-Select® Coffee Maker",
+    "price": 129.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#716c6d",
+        "url": "../images/coffee-makers/K-Select/K-Select-Coffee-Maker_5000199834_swatch.webp"
+      },
+      {
+        "color": "#333333",
+        "url": "../images/coffee-makers/K-Select/K-Select-Coffee-Maker_5000359828_swatch.webp"
+      },
+      {
+        "color": "#bb3a56",
+        "url": "../images/coffee-makers/K-Select/K-Select-Coffee-Maker_5000359889_swatch.webp"
+      },
+      {
+        "color": "#a4cfd3",
+        "url": "../images/coffee-makers/K-Select/K-Select-Coffee-Maker_5000359890_swatch.webp"
+      },
+      {
+        "color": "#ddc7a5",
+        "url": "../images/coffee-makers/K-Select/K-Select-Coffee-Maker_5000359891_swatch.webp"
+      },
+      {
+        "color": "#32425e",
+        "url": "../images/coffee-makers/K-Select/K-Select-Coffee-Maker_5000359892_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "Keurig® K-Elite® Single Serve Coffee Maker",
+    "price": 179.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#c4b8aa",
+        "url": "../images/coffee-makers/K-Elite/K-Elite-Single-Serve-Coffee-Maker_5000359831_swatch.webp"
+      },
+      {
+        "color": "#a3a7a8",
+        "url": "../images/coffee-makers/K-Elite/K-Elite-Single-Serve-Coffee-Maker_5000359832_swatch.webp"
+      },
+      {
+        "color": "#676260",
+        "url": "../images/coffee-makers/K-Elite/K-Elite-Single-Serve-Coffee-Maker_5000359886_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "K-Slim® Single Serve Coffee Maker",
+    "price": 119.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#000",
+        "url": "../images/coffee-makers/K-Slim/K-Slim-Single-Serve-Coffee-Maker_5000363760_swatch.webp"
+      },
+      {
+        "color": "#fff",
+        "url": "../images/coffee-makers/K-Slim/K-Slim-Single-Serve-Coffee-Maker_5000363788_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "K-Café® Single Serve Coffee Latte & Cappuccino Maker",
+    "price": 179.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#1b2631",
+        "url": "../images/coffee-makers/K-Cafe/K-Cafe-Coffee-Latte-Cappuccino-Maker_5000201735_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "K-Mini Plus® Single Serve Coffee Maker",
+    "price": 99.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#2c2c33",
+        "url": "../images/coffee-makers/K-Mini-Plus/K-Mini-Plus-Coffee-Maker_5000200239_swatch.webp"
+      },
+      {
+        "color": "#bb3a56",
+        "url": "../images/coffee-makers/K-Mini-Plus/K-Mini-Plus-Coffee-Maker_5000200240_swatch.webp"
+      },
+      {
+        "color": "#a9a9a6",
+        "url": "../images/coffee-makers/K-Mini-Plus/K-Mini-Plus-Coffee-Maker_5000202016_swatch.webp"
+      },
+      {
+        "color": "#578295",
+        "url": "../images/coffee-makers/K-Mini-Plus/K-Mini-Plus-Coffee-Maker_5000203817_swatch.webp"
+      },
+      {
+        "color": "#fff",
+        "url": "../images/coffee-makers/K-Mini-Plus/K-Mini-Plus-Coffee-Maker_5000341911_swatch.webp"
+      },
+      {
+        "color": "#77bcda",
+        "url": "../images/coffee-makers/K-Mini-Plus/K-Mini-Plus-Coffee-Maker_5000361863_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "K-Slim + ICED™ Single Serve Coffee Maker",
+    "price": 119.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#b6b6b6",
+        "url": "../images/coffee-makers/K-Slim-Iced/K-Slim-Iced-Single-Serve-Coffee-Maker_5000365009_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "Keurig® K-Classic® Coffee Maker",
+    "price": 139.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#343434",
+        "url": "../images/coffee-makers/K-Classic/K50-Coffee-Maker_5000204441_swatch.webp"
+      },
+      {
+        "color": "#aa273b",
+        "url": "../images/coffee-makers/K-Classic/K50-Coffee-Maker_5000345253_swatch.webp"
+      }
+    ]
+  },
+  {
+    "name": "K-Duo™ Single Serve & Carafe Coffee Maker",
+    "price": 169.99,
+    "shipping": "free shipping",
+    "colors": [
+      {
+        "color": "#000000",
+        "url": "../images/coffee-makers/K-Duo/K-Duo-Single-Serve-Carafe-Coffee-Maker_5000204977_swatch.webp"
+      }
+    ]
+  }
+]

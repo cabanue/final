@@ -1,0 +1,190 @@
+.cart {
+  max-width: 1200px;
+  margin: 20px auto;
+  &__clear {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #f9c507;
+    cursor: pointer;
+  }
+  &__items-total {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .items {
+      background-color: #e7e4df;
+      width: 75%;
+      padding: 15px;
+      border-radius: 10px;
+      height: fit-content;
+      &__header {
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+      &__subtext {
+        font-style: italic;
+        font-size: 12px;
+      }
+      &__container {
+        .item {
+          background-color: white;
+          padding: 10px;
+          border-radius: 3px;
+          margin-bottom: 10px;
+          &__top {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            margin-right: 20px;
+            opacity: 0.5;
+            &__text {
+              font-size: 12px;
+              text-decoration: underline;
+              margin-right: 20px;
+              margin-bottom: 0px;
+              cursor: pointer;
+            }
+            i {
+              cursor: pointer;
+            }
+          }
+          &__coffee {
+            display: flex;
+            justify-content: space-between;
+            &__left {
+              display: flex;
+              justify-content: space-around;
+              width: 60%;
+              &__pic {
+                background-image: url(../images/coffee-makers/K-Cafe/K-Cafe-Coffee-Latte-Cappuccino-Maker_5000201735_swatch.webp);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 150px;
+                width: 150px;
+              }
+              &__name {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 40%;
+              }
+            }
+            &__price {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 20px;
+            }
+          }
+        }
+        .item:last-child {
+          border-radius: 3px 3px 20px 20px;
+        }
+      }
+    }
+    .total {
+      width: 25%;
+      margin-left: 10px;
+      height: fit-content;
+      border-radius: 10px;
+      box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      &__heading {
+      }
+      &__subtotal {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dashed black;
+      }
+      &__mid {
+        border-bottom: 1px dashed black;
+        padding-bottom: 10px;
+        &__shipping {
+          font-size: 14px;
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+        }
+        &__order-total {
+          padding-top: 7px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-left: -20px;
+          padding-left: 20px;
+          background-color: #e7e4df;
+          border-radius: 0px 10px 10px 0px;
+          font-size: 19px;
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+      &__but {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f1be48;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        p {
+          margin-bottom: 0;
+        }
+        i {
+          color: #3b7bbf;
+          margin-left: 10px;
+        }
+        &--paypal {
+          background-color: #ebebeb;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .cart {
+    &__items-total {
+      flex-direction: column;
+      padding: 10px;
+      .items {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .total {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cart {
+    &__items-total {
+      .items {
+        &__container {
+          .item {
+            &__coffee {
+              flex-direction: column;
+              &__left {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
