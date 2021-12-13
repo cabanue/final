@@ -264,7 +264,7 @@ function route(id) {
 
 function loadPage(pageID) {
   if (pageID == "coffee") {
-    MODEL.getPageData(pageID, displayCoffee);
+    displayCoffee();
     $(".mobile-nav").addClass("mobile-nav--clicked");
     $(".hamburger").addClass("fa-bars");
     $(".hamburger").removeClass("fa-times");
@@ -274,7 +274,7 @@ function loadPage(pageID) {
       $("body").css("overflow", "hidden");
     }
   } else if (pageID == "cart") {
-    MODEL.getPageData(pageID, displayCart);
+    displayCart();
     $(".mobile-nav").addClass("mobile-nav--clicked");
     $(".hamburger").addClass("fa-bars");
     $(".hamburger").removeClass("fa-times");
@@ -326,10 +326,10 @@ function initListeners() {
 $(document).ready(function () {
   try {
     let app = firebase.app();
+    getCoffee();
     initFirebase();
     initListeners();
     route("coffee");
-    getCoffee();
   } catch {
     console.error("yes");
   }
